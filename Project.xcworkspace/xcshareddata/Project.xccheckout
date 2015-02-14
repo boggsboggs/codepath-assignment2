@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6CAA69D3-698F-45DC-B4F8-55069D09C944</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0712233486EF3A901D0216A74A51E5A398D31B9C</key>
+		<string>github.com:upsidedowntophat/codepath-assignment2</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0712233486EF3A901D0216A74A51E5A398D31B9C</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:upsidedowntophat/codepath-assignment2</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0712233486EF3A901D0216A74A51E5A398D31B9C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0712233486EF3A901D0216A74A51E5A398D31B9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>codepath-assignment2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
