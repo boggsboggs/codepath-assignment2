@@ -20,17 +20,20 @@ class SearchCell: UITableViewCell {
     var resultIndex: Int?
     
     func initialize() {
-        println("cell initialize")
         if let business = self.business {
-            println("business not nil")
             nameLabel.text = "\(resultIndex! + 1). \(business.name)"
             addressLabel.text = business.address
             categoriesLabel.text = ", ".join(business.categories)
             numReviewLabel.text = "\(business.reviewCount) Reviews"
-            println(business.ratingImageUrl)
             businessImageView.setImageWithURL(business.imageUrl)
             starsImageView.setImageWithURL(business.ratingImageUrl)
         }
+        self.setUpViews()
+    }
+
+    func setUpViews() {
+        self.businessImageView.layer.cornerRadius = 5.0
+        self.businessImageView.clipsToBounds = true
     }
     
     override func setSelected(selected: Bool, animated: Bool) {
