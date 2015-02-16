@@ -30,11 +30,12 @@ class SearchController: UITableViewController, UISearchBarDelegate {
         super.viewDidLoad()
         self.navigationItem.titleView = searchView
         searchView.delegate = self
-        self.fetchBusinesses()
+        self.tableView.reloadData()
     }
     
     override func viewWillAppear(animated: Bool) {
-        self.tableView.reloadData()
+        self.defaults.setInteger(0, forKey: "businessesOffset")
+        self.defaults.synchronize()
         self.businesses = []
         self.fetchBusinesses()
     }
@@ -44,6 +45,8 @@ class SearchController: UITableViewController, UISearchBarDelegate {
         println("Search Button Pressed: \(search)")
         self.searchText = search
         self.businesses = []
+        self.defaults.setInteger(0, forKey: "businessesOffset")
+        self.defaults.synchronize()
         self.fetchBusinesses()
         self.searchView.endEditing(true)
     }
