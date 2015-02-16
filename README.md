@@ -17,7 +17,7 @@ Time spent: `15hrs`
    - [x] The filters table should be organized into sections as in the mock.
    - [x] You can use the default UISwitch for on/off states. Optional: implement a custom switch
    - [x] Clicking on the "Search" button should dismiss the filters page and trigger the search w/ the new filter settings.
-   - [ ] Display some of the available Yelp categories (choose any 3-4 that you want).  (assignment wasn't clear about what to do with categories; it would be the same setup as the other sections.  I thought I'd learn more from doing infinite scroll and the map view)
+   - [ ] Display some of the available Yelp categories (choose any 3-4 that you want).  (Assignment wasn't clear about what was required with categories.  Choosing 3-4 would be the same setup as the other sections.  I thought I'd learn more from doing infinite scroll and the map view)
 
 #### Optional
 
